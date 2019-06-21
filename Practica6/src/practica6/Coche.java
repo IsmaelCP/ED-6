@@ -37,4 +37,35 @@ public class Coche {
 		}
 		return resultado;
 	}
+
+	private String metodoA(String modelo2, String fabricante2) {
+		modelo2 = "Corsa";
+		fabricante2 = "Opel";
+		String resultado = "";
+
+		resultado = "es un " + fabricante2 + modelo2 + " y gasta 1,337 euros por litro"; 
+
+		return resultado;
+	}
+
+	private String metodoB(String modelo2, String fabricante2) {
+		modelo2 = "Ibiza";
+		fabricante2 = "Seat";
+		String resultado = "";
+
+		resultado = "es un " + fabricante2 + modelo2 + " y gasta 1,337 euros por litro"; 
+
+		return resultado;
+	}
+
+	private String metodoC(String modelo2, String fabricante2) {
+		modelo2 = "Getz";
+		fabricante2 = "Hyundai";
+		String resultado = "";
+
+		resultado = "es un " + fabricante2 + modelo2 + " y gasta 1,337 euros por litro"; 
+
+		return resultado;
+	}
+
 }
